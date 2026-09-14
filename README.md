@@ -11,14 +11,21 @@ Instagram için geliştirilmiş **yeni nesil yapay zeka asistanı ve içerik dan
 Uygulamanın hazır Android kurulum (`.apk`) dosyasına aşağıdaki yollardan hemen ulaşabilirsiniz:
 
 ### 1. 🚀 Depodan Doğrudan İndir (apk/turkgramai.apk)
-Proje deposundaki `apk` klasöründe yer alan güncel APK dosyasını doğrudan indirebilirsiniz:
-* 📦 **[turkgramai.apk İndir (apk/turkgramai.apk)](./apk/turkgramai.apk?raw=true)** *(Dosya boyutu: ~26 MB)*
+GitHub deposunda `apk` klasörüne girip dosyayı indirmek için:
+1. Depo ana sayfasında **`apk`** klasörüne tıklayın.
+2. **`turkgramai.apk`** dosyasına tıklayın.
+3. Açılan sayfada sağ üstteki **"Download"** (veya **"View raw"**) butonuna tıklayın. Dosya hemen telefonunuza veya bilgisayarınıza inecektir.
+* 📦 **[Doğrudan İndirme Linki (Download Raw)](./apk/turkgramai.apk?raw=true)** *(Dosya boyutu: ~26 MB)*
 
-### 2. 🏷️ GitHub Releases & Actions Üzerinden
+### 2. 🌐 Tarayıcıdan Doğrudan İndir
+Uygulamanın aktif sunucu linki üzerinden doğrudan indirmek için:
+* ⬇️ **[turkgramai.apk İndir](https://ais-dev-hvk64af5ivuhz5hzktm5os-325056957013.europe-west2.run.apk/turkgramai.apk)** (veya `/apk/turkgramai.apk`)
+
+### 3. 🏷️ GitHub Releases & Actions Üzerinden
 * Proje sayfasındaki **[Releases](../../releases)** sekmesinden `turkgramai.apk` dosyasını indirebilirsiniz.
 * Depoya her kod gönderildiğinde (`push`), `.github/workflows/build-apk.yml` otomatik olarak en güncel APK'yı derler ve **apk/turkgramai.apk** olarak hem depoda günceller hem de **Actions > Artifacts** sekmesine yükler.
 
-### 3. ⚡ Google AI Studio Üzerinden İndir
+### 4. ⚡ Google AI Studio Üzerinden İndir
 * AI Studio arayüzünde sağ üstteki ayarlar / menü simgesine tıklayın.
 * **"Generate APK / Export"** seçeneğini seçerek cihazınıza doğrudan indirebilirsiniz.
 
@@ -26,7 +33,7 @@ Proje deposundaki `apk` klasöründe yer alan güncel APK dosyasını doğrudan 
 
 ## 📲 Android Cihaza APK Yükleme Adımları
 
-1. Yukarıdaki linkten **`Instagram-AI.apk`** dosyasını Android telefonunuza veya tabletinize indirin.
+1. Yukarıdaki yöntemlerden biriyle **`turkgramai.apk`** dosyasını Android telefonunuza veya tabletinize indirin.
 2. Bildirim çubuğundan veya Dosya Yöneticisi / İndirilenler klasöründen indirilen `.apk` dosyasına dokunun.
 3. Android güvenlik uyarısı gelirse:
    * **"Ayarlar"**'a gidin ve **"Bu kaynaktan izin ver / Bilinmeyen uygulamaları yükle"** seçeneğini aktif edin.
