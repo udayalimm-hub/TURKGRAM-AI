@@ -10,13 +10,13 @@ Instagram için geliştirilmiş **yeni nesil yapay zeka asistanı ve içerik dan
 
 Uygulamanın hazır Android kurulum (`.apk`) dosyasına aşağıdaki yollardan hemen ulaşabilirsiniz:
 
-### 1. 🚀 Depodan Doğrudan İndir (En Hızlı)
-Proje deposuna dahil edilen güncel APK dosyasını doğrudan indirebilirsiniz:
-* 📦 **[Instagram-AI.apk İndir](./release/Instagram-AI.apk?raw=true)** *(Dosya boyutu: ~26 MB)*
+### 1. 🚀 Depodan Doğrudan İndir (apk/turkgramai.apk)
+Proje deposundaki `apk` klasöründe yer alan güncel APK dosyasını doğrudan indirebilirsiniz:
+* 📦 **[turkgramai.apk İndir (apk/turkgramai.apk)](./apk/turkgramai.apk?raw=true)** *(Dosya boyutu: ~26 MB)*
 
 ### 2. 🏷️ GitHub Releases & Actions Üzerinden
-* Proje sayfasındaki **[Releases](../../releases)** sekmesinden en son sürümün altındaki `Instagram-AI-v1.0.apk` dosyasını indirebilirsiniz.
-* Depoya her kod gönderildiğinde (`push`), `.github/workflows/build-apk.yml` otomatik olarak en güncel APK'yı derler ve **Actions > Artifacts** sekmesine yükler.
+* Proje sayfasındaki **[Releases](../../releases)** sekmesinden `turkgramai.apk` dosyasını indirebilirsiniz.
+* Depoya her kod gönderildiğinde (`push`), `.github/workflows/build-apk.yml` otomatik olarak en güncel APK'yı derler ve **apk/turkgramai.apk** olarak hem depoda günceller hem de **Actions > Artifacts** sekmesine yükler.
 
 ### 3. ⚡ Google AI Studio Üzerinden İndir
 * AI Studio arayüzünde sağ üstteki ayarlar / menü simgesine tıklayın.
